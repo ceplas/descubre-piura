@@ -63,6 +63,7 @@ dl{margin:8px 0 12px;display:grid;gap:6px}dl div{display:grid;grid-template-colu
 .channels{display:grid;gap:8px}@media(min-width:720px){.channels{grid-template-columns:1fr 1fr}}
 .ch{display:flex;align-items:center;gap:10px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:10px 12px;text-decoration:none;font-weight:600;color:var(--navy);min-height:48px}
 .ch i{width:28px;height:28px;color:var(--navy);flex:none}.ch svg{width:100%;height:100%}
+.contact{background:#fff;border:1px solid var(--line);border-top:6px solid var(--red);border-radius:18px;padding:16px}.contact h3{margin:0;font-style:italic;font-weight:900;color:var(--navy);font-size:20px}.contact .org{margin:0 0 6px;color:var(--muted);font-size:14px}.cbtns{display:flex;flex-wrap:wrap;gap:8px}
 footer{background:var(--navy);color:#DCE6F5;padding:22px 16px;font-size:13px}
 footer .in{max-width:980px;margin:0 auto}footer a{color:#fff}
 :focus-visible{outline:3px solid var(--red);outline-offset:2px}
@@ -83,7 +84,7 @@ footer .in{max-width:980px;margin:0 auto}footer a{color:#fff}
   <h1><span class="" lang="es">Descubre</span><span class="" lang="en">Discover</span><span class="l2">Piura</span></h1>
   <div class="pill"><span class="" lang="es">Ciudad del eterno sol</span><span class="" lang="en">City of the eternal sun</span></div>
   <p class="" lang="es">Recorre el Centro Histórico: plazas, templos, museos y el sabor de la cocina piurana. Todo a pocos pasos.</p><p class="" lang="en">Walk around the historic centre: squares, churches, museums and the flavours of Piura’s cuisine, all within a few blocks.</p>
-  <div class="actions"><a class="btn solid" href="#ruta"><span class="" lang="es">Ruta sugerida</span><span class="" lang="en">Suggested route</span></a><a class="btn" href="#atractivos"><span class="" lang="es">Atractivos</span><span class="" lang="en">Attractions</span></a></div>
+  <div class="actions"><a class="btn solid" href="#ruta"><span class="" lang="es">Ruta sugerida</span><span class="" lang="en">Suggested route</span></a><a class="btn" href="#atractivos"><span class="" lang="es">Atractivos</span><span class="" lang="en">Attractions</span></a><a class="btn" href="#contacto"><span class="" lang="es">Contacto</span><span class="" lang="en">Contact</span></a></div>
 </section>
 <p class="note"><span class="" lang="es">Versión prototipo en proceso de validación institucional. Confirma horarios antes de tu visita.</span><span class="" lang="en">Prototype version under institutional review. Please confirm opening hours before your visit.</span></p>
 <main>
@@ -216,12 +217,28 @@ footer .in{max-width:980px;margin:0 auto}footer a{color:#fff}
   </ul>
   <h2><span class="" lang="es">Tu opinión nos ayuda</span><span class="" lang="en">Your opinion helps us</span></h2>
   <p class="" lang="es">El formulario de opinión se habilitará cuando la Subgerencia lo apruebe. Mientras tanto, puedes dejar tu comentario en el Centro de Información Turística.</p><p class="" lang="en">The feedback form will be enabled once approved by the Tourism Development Office. Meanwhile, you can leave your comments at the Tourist Information Centre.</p>
+  <h2 id="contacto"><span class="" lang="es">¿Necesitas orientación?</span><span class="" lang="en">Need help?</span></h2>
+  <div class="contact">
+    <h3><span class="" lang="es">Oficina de Información Turística</span><span class="" lang="en">Tourist Information Office</span></h3>
+    <p class="org"><span class="" lang="es">Municipalidad Provincial de Piura</span><span class="" lang="en">Provincial Municipality of Piura</span></p>
+    <dl>
+      <div><dt><span class="" lang="es">Dirección</span><span class="" lang="en">Address</span></dt><dd>Jr. Ayacucho 377, Piura</dd></div>
+      <div><dt><span class="" lang="es">Atención</span><span class="" lang="en">Hours</span></dt><dd><span class="" lang="es">Lunes a viernes, de 8:00 a. m. a 6:00 p. m.</span><span class="" lang="en">Monday to Friday, 8:00 a.m. – 6:00 p.m.</span></dd></div>
+      <div><dt><span class="" lang="es">Teléfono</span><span class="" lang="en">Phone</span></dt><dd><a href="tel:+51969401143">+51 969 401 143</a></dd></div>
+      <div><dt><span class="" lang="es">Correo</span><span class="" lang="en">E-mail</span></dt><dd><a href="mailto:iyarleque@munipiura.gob.pe">iyarleque@munipiura.gob.pe</a></dd></div>
+    </dl>
+    <div class="cbtns">
+      <a class="btn solid" href="tel:+51969401143"><span class="" lang="es">Llamar</span><span class="" lang="en">Call</span></a>
+      <a class="btn" href="mailto:iyarleque@munipiura.gob.pe"><span class="" lang="es">Escribir</span><span class="" lang="en">E-mail</span></a>
+      <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Jr.%20Ayacucho%20377%2C%20Piura" target="_blank" rel="noopener"><span class="" lang="es">Cómo llegar</span><span class="" lang="en">Directions</span> →</a>
+    </div>
+  </div>
   <h2><span class="" lang="es">Canales oficiales</span><span class="" lang="en">Official channels</span></h2>
   <div class="channels"><a class="ch" href="https://www.facebook.com/search/top?q=Municipalidad%20Provincial%20de%20Piura" target="_blank" rel="noopener"><i><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="currentColor"/><path d="M13.2 19v-6h2l.3-2.4h-2.3V9.2c0-.7.2-1.2 1.2-1.2h1.2V5.9c-.2 0-1-.1-1.8-.1-1.8 0-3 1.1-3 3.1v1.7H8.8V13h2v6z" fill="#fff"/></svg></i>Municipalidad Provincial de Piura</a><a class="ch" href="https://www.tiktok.com/search?q=MuniPiura" target="_blank" rel="noopener"><i><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="currentColor"/><path d="M14.6 5.5c.3 1.6 1.3 2.6 2.9 2.7v2.1c-1 0-2-.3-2.8-.9v4.3a3.9 3.9 0 1 1-3.9-3.9h.4v2.2a1.7 1.7 0 1 0 1.2 1.7V5.5z" fill="#fff"/></svg></i>MuniPiura</a><a class="ch" href="https://www.youtube.com/results?search_query=Municipalidad+de+Piura" target="_blank" rel="noopener"><i><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="currentColor"/><path d="M10 8.5v7l6-3.5z" fill="#fff"/></svg></i>Municipalidad de Piura</a><a class="ch" href="https://www.gob.pe/munipiura" target="_blank" rel="noopener"><i><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="currentColor"/><path d="M6.5 12h11M12 6.5c1.8 1.6 2.6 3.4 2.6 5.5s-.8 3.9-2.6 5.5c-1.8-1.6-2.6-3.4-2.6-5.5s.8-3.9 2.6-5.5zM12 6.5a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11z" stroke="#fff" stroke-width="1.3" fill="none"/></svg></i>www.gob.pe/munipiura</a></div>
 </main>
 <footer><div class="in">
   <p><b><span class="" lang="es">Fuentes</span><span class="" lang="en">Sources</span>:</b> Andina (Zuta Dávila, 2025); RPP (2025); MINCETUR (2024), Estudio del nivel de satisfacción del turista en Piura; Municipalidad Provincial de Piura (2026), Memoria de Gestión Anual 2025.</p>
-  <p><span class="" lang="es">Última actualización</span><span class="" lang="en">Last update</span>: noviembre de 2026. <span class="" lang="es">Contenido sujeto a validación de la Subgerencia de Desarrollo Turístico.</span><span class="" lang="en">Content subject to review by the Tourism Development Office.</span></p>
+  <p><span class="" lang="es">Última actualización</span><span class="" lang="en">Last update</span>: 16 de noviembre de 2026. <span class="" lang="es">Contenido sujeto a validación de la Subgerencia de Desarrollo Turístico.</span><span class="" lang="en">Content subject to review by the Tourism Development Office.</span></p>
   <p><span class="" lang="es">Propuesta elaborada en el marco de las Prácticas Preprofesionales II – Escuela de Administración en Turismo y Hotelería, Universidad César Vallejo.</span><span class="" lang="en">Proposal prepared as part of a pre-professional internship (Universidad César Vallejo).</span></p>
 </div></footer>
 <script>
